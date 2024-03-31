@@ -1,0 +1,175 @@
+@media only screen and (max-width: 93.8125em) {
+  nav {
+    padding: 4rem 5rem;
+  }
+
+  .hero {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 83.0625em) {
+  .nav-list {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    right: 0;
+    background-color: #4F9843;
+    transition: all 300ms ease;
+    z-index: 1000;
+    padding-top: 5rem;
+  }
+
+  .follow-container {
+    padding: 5rem;
+  }
+
+  .buy-link {
+    margin-left: 0;
+  }
+
+  .nav-list.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin-right: 0;
+  }
+
+  .nav-list li:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  #menu-icon i.active:before {
+    content: '\f00d';
+    color: #1C0C2A;
+    margin-right: 50%;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-textbox {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .follow-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .follow-box a {
+    width: 100%;
+  }
+
+  .about-container {
+    flex-direction: column-reverse;
+    padding: 5rem 5rem;
+  }
+
+  .about-textbox {
+    width: 100%;
+  }
+
+  .about-container img {
+    width: 100%;
+  }
+
+  .about-textbox h2 {
+    text-align: center;
+  }
+
+  .connect {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frame {
+    width: 100%;
+    height: 460px;
+  }
+
+  .conect-img {
+    width: 100%;
+  }
+
+  .token-box {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .token-textbox {
+    padding-left: 0rem;
+    width: 100%;
+  }
+
+  .token-img {
+    width: 80%;
+    margin-top: 4rem;
+    padding-right: 0;
+  }
+
+  .roadmap-box {
+    flex-direction: column;
+  }
+
+  .second {
+    order: -1;
+  }
+
+  .roadmap {
+    width: 100%;
+  }
+
+  .roadmap-img1,
+  .roadmap-img2 {
+    width: 100%;
+  }
+
+  .footer-parag {
+    width: 100%;
+  }
+
+  .buy {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+  }
+
+  .about-textbox h2 {
+    font-size: 4rem;
+  }
+
+  .buy-container h2,
+  .token-container h2,
+  .roadmap-container h2,
+  .footer-container h2 {
+    font-size: 4rem;
+  }
+}
