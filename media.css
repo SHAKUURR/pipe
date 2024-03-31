@@ -1,6 +1,7 @@
 @media only screen and (max-width: 93.8125em) {
   nav {
     padding: 4rem 5rem;
+    justify-content: space-between;
   }
 
   .hero {
