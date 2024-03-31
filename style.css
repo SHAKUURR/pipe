@@ -48,12 +48,13 @@ body {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 4rem 10rem;
   gap: 3rem;
   background-color: #4F9843;
   width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
 
 header {
@@ -73,6 +74,9 @@ header {
   gap: 3rem;
 }
 
+.logo {
+  margin-right: 3em;
+}
 
 
 #menu-icon {
@@ -89,6 +93,11 @@ header {
   letter-spacing: 0.05em;
   font-weight: normal;
   font-family: Header, sans-serif;
+  transition: all .4s;
+}
+
+.nav-link:hover {
+  color: #c7c7c7;
 }
 
 .buy-link {
@@ -130,9 +139,9 @@ h1 {
   line-height: 48px;
 }
 
-/* .hero-img {
-  width: 50%;
-} */
+.hero-img {
+  width: 48%;
+}
 
 .social {
   margin-top: 8rem;

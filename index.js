@@ -50,18 +50,18 @@ ScrollReveal().reveal(".connect-img, .token-img", {
 	distance: "150px",
 });
 ScrollReveal().reveal(".roadmap-img2", {
-	delay: 100,
+	delay: 150,
 	origin: "right",
-	duration: 1500,
+	duration: 500,
 	distance: "150px",
 });
 
 if (window.innerWidth >= 768) {
 	// Apply ScrollReveal animation only on larger screens
-	ScrollReveal().reveal(".logo, .nav-item", {
+	ScrollReveal().reveal(".logo, .fe", {
 		delay: 100,
 		origin: "bottom",
-		duration: 1500,
-		distance: "30px",
+		duration: 2000,
+		distance: "100px",
 	});
 }
