@@ -191,4 +191,8 @@
   html {
     font-size: 50%;
   }
+
+  .logo {
+    width: 15rem;
+  }
 }
