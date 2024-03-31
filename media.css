@@ -11,6 +11,7 @@
 }
 
 @media only screen and (max-width: 83.0625em) {
+
   .nav-list {
     position: fixed;
     flex-direction: column;
@@ -134,6 +135,7 @@
     width: 80%;
     margin-top: 4rem;
     padding-right: 0;
+    padding-top: 0;
   }
 
   .roadmap-box {
