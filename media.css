@@ -172,4 +172,23 @@
   .footer-container h2 {
     font-size: 4rem;
   }
+
+  .token-container h2 {
+    font-size: 3rem;
+  }
+
+  .hero-textbox p {
+    font-size: 2.6rem;
+  }
+
+  .buy-container {
+    padding: 0 3rem;
+  }
+}
+
+
+@media only screen and (max-width:33.125em) {
+  html {
+    font-size: 50%;
+  }
 }
