@@ -56,9 +56,12 @@ ScrollReveal().reveal(".roadmap-img2", {
 	distance: "150px",
 });
 
-ScrollReveal().reveal(".logo, .nav-item", {
-	delay: 100,
-	origin: "bottom",
-	duration: 1500,
-	distance: "30px",
-});
+if (window.innerWidth >= 768) {
+	// Apply ScrollReveal animation only on larger screens
+	ScrollReveal().reveal(".logo, .nav-item", {
+		delay: 100,
+		origin: "bottom",
+		duration: 1500,
+		distance: "30px",
+	});
+}
